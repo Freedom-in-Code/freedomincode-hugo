@@ -42,7 +42,6 @@ This would look like:
     <li><a href="#">Services</a></li>
     <li><a href="#">Contacts</a></li>
 <ul>
-
 ``` 
 
 If we save this and open our HTML file using the Live Server, which is another extension from VSCode that allows you to preview your changes instantly as you save your `index.html` file, you will find nothing more but a typical unordered list with a bunch of links. 
