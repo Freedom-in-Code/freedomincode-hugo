@@ -1,7 +1,7 @@
-baseURL       = "http://freedomincode.surge.sh/"
+baseURL       = ""
 languageCode  = "en-us"
-title         = "Freedom in Code"
-theme         = "roxo"
+title         = "Freedom in Code | Learn Web Dev through Projects"
+theme         = "roxo-hugo"
 summarylength = 25
 
 # Site Menus

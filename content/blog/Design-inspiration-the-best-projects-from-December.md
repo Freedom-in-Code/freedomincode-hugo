@@ -1,35 +1,53 @@
 ---
-title: "Design Inspiration: The Best Projects From December"
+title: "Responsive Navigation Menu Pure HTML/CSS for Beginners"
 date: 2019-12-24T13:45:06+06:00
 image: images/blog/blog-post-04.jpg
 feature_image: images/blog/blog-details-image.jpg
-author: Alexender Schoitiz
+author: Surafel Yimam
 ---
-### Black Lines brand identity, by & Smith
+### Responsive Navigation Menu Using HTML/CSS
 
-Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
+When it comes to websites, the most handy element is the Navigation Bar. It is the most important element since it tell users where they currently are and where they can navigate to in the site. This element can be made using the two fundamental scripting languages. HTML and CSS. 
 
-1. ROFL means Rolling on floor laughing.
-2. STFU means Shut the *freak* up.
-3. LMK means Let me know.
-4. ILY means I love you.
-5. YOLO means You only live once.
-6. SMH means Shaking my head.
+In many projects, you have already seen that the HTML is used to give structure to a component and CSS is used to style it. In this particular case, we will use CSS to make our navigation bar responsive. A responsive navigation bar is one that responds to the device being accessed. Smaller screeens and devices can still access our website if it's responsive. We will follow these basic steps to create our navigation bar. 
 
-The company was previously known as Hingston + Co. but has been given a complete rebrand — including a new logo, tap badges, website and branded material — by London-based design studio & Smith. The new identity is based on the Kandinsky abstract painting, Black Lines, and true to its name, is mostly black and white with a few flashes of colour. According to & Smith, the identity brings together “art and science” and has been brought to life through collaborations with nine illustrators.
+1. Lay Our Navigation Bar
+2. The HTML for the Navigation Bar
+3. The CSS for the Navigation Bar
 
-1. ROFL means Rolling on floor laughing.
-2. STFU means Shut the *freak* up.
-3. LMK means Let me know.
-4. ILY means I love you.
-5. YOLO means You only live once.
-6. SMH means Shaking my head.
+First, let's take a look at how we want our navigation bar to look like. 
 
-![blog-details-image-02](https://user-images.githubusercontent.com/16266381/71399826-2009b380-264f-11ea-9bc3-59d7fa9a9994.jpg)
 
-Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
 
-> "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring."
+You will notice that our navigation bar looks pretty neat and it also has this hover effect on its buttons, this will tell the users that they can click on it and navigate to that said location. Which makes for great user experience! And it also has a logo of the business on the other end. 
+
+Designing and laying out your navigation bar before actually coding it helps you have a clearer image of what you want your element to look like. It also helps you figure out the required CSS. So let's get working on the code. 
+
+To make this navigation bar, you can use any simple text editor like Notepad. I am going to be using Visual Studio Code, which is a very powerful and free IDE.  Using an IDE or Integrated Developement Environment, helps you become a better, faster and smarter coder. So, let's create a file called `index.html` in our sites directory. 
+
+The `index.html` file is the file that holds the entire structure of our navigation bar. And the way you start writing HTML files is usually the same. If you're using VSCode you can simply use an exclamation mark to use the Emmet abbreviation. This will give out an HTML5 boilerplate ready for you to use. 
+
+You initialize the whole document type as `html` by using `<!DOCTYPE html>`. This reminds our browser to expect an HTML5 version document.  Next, you will find the `<html>` tag and inside it the `head` tag, which will hold our `metadata`, `title` and `link` to our styles file. After that you will find the `body` tag. Last, is the `</html>` closing tag which tells our browser that the document is finished. 
+
+When starting to work on a Navigation Bar element, you will notice that most links and buttons are usually lists wrapped inside a container. So, we can use a simple unordered list with some items to structure our Navigation Bar.
+
+And since our elements are links to other pages or elements, we can nest anchor tags (link tags) inside our list elements. 
+
+This would look like: 
+
+``` html
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contacts</a></li>
+<ul>
+
+``` 
+
+If we save this and open our HTML file using the Live Server, which is another extension from VSCode that allows you to preview your changes instantly as you save your `index.html` file, you will find nothing more but a typical unordered list with a bunch of links. 
+
+Now to the final part of our project, which is to style our HTML using CSS. So let's create a file that links to our previous link tag in our HTML head. We will call this file `styles.css` which matches with the reference of the link tag and is also common convention when styling an HTML page. 
 
 
 > Paul Rand, graphic designer
