@@ -1,7 +1,7 @@
 baseURL       = ""
 languageCode  = "en-us"
 title         = "Freedom in Code | Learn Web Dev through Projects"
-theme         = "roxo-hugo"
+theme         = "roxo"
 summarylength = 25
 
 # Site Menus
