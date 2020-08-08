@@ -1,4 +1,4 @@
-baseURL       = ""
+baseURL       = "http://freedomincode.surge.sh/"
 languageCode  = "en-us"
 title         = "Freedom in Code"
 theme         = "roxo"
