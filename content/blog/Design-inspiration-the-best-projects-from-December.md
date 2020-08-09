@@ -18,7 +18,6 @@ In many projects, you have already seen that the HTML is used to give structure 
 First, let's take a look at how we want our navigation bar to look like. 
 
 
-
 You will notice that our navigation bar looks pretty neat and it also has this hover effect on its buttons, this will tell the users that they can click on it and navigate to that said location. Which makes for great user experience! And it also has a logo of the business on the other end. 
 
 Designing and laying out your navigation bar before actually coding it helps you have a clearer image of what you want your element to look like. It also helps you figure out the required CSS. So let's get working on the code. 
@@ -47,6 +46,16 @@ This would look like:
 If we save this and open our HTML file using the Live Server, which is another extension from VSCode that allows you to preview your changes instantly as you save your `index.html` file, you will find nothing more but a typical unordered list with a bunch of links. 
 
 Now to the final part of our project, which is to style our HTML using CSS. So let's create a file that links to our previous link tag in our HTML head. We will call this file `styles.css` which matches with the reference of the link tag and is also common convention when styling an HTML page. 
+
+Let's start by removing the dots at the start of each list item. We can do this by selecting the whole unordered list as `ul` and giving it's `list-style` property a value of `none`. Most navigation bars are aligned to the top and they have no space in between them and the browser window. We can set this up by giving our universal element 0 margin and 0 padding values. Next, to style our navigation, let's give it a slightly darker background color of #555.
+
+Now let's move to styling our list tags which are wrapped inside our unordered lists. You will notice that they are displaying as block values by default. This means that each element takes up a line. The display element is set as block for most elements in HTML. One of them is the list tag. Let's change its display value inline, which would make our list elements all appear on the same line. 
+
+Once we have styled our list elements as such, it's time to style the anchor tags inside our list elements. Links in HTML have a default text-decoration property. Let's remove this property by setting it to a value of none. Another default property they have, is the blue color. Let's change this to white, to offer our navigation element some contrast. 
+
+Our Navigation Bar is looking much better now. But it's noticeable that the elements are pretty close apart to each other. Let's put some space between them by setting the padding to 10px. 
+
+
 
 
 > Paul Rand, graphic designer
