@@ -1,6 +1,6 @@
 baseURL       = ""
 languageCode  = "en-us"
-title         = "Freedom in Code | Learn Web Dev through Projects"
+title         = "Freedom in Code"
 theme         = "roxo"
 summarylength = 25
 
@@ -33,8 +33,8 @@ summarylength = 25
   logo = "images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "Freedom in Code | Learn Web Dev by building Projects"
+  author = "Surafel Yimam"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -51,22 +51,22 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
-    primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Us"
-    secondary_button_url  = "contact"
+    heading               = "Learn Web Dev through building Projects"
+    tagline               = "THE BEST WAY TO DO SOMETHING IS TO DO IT."
+    primary_button        = "WATCH OUR VIDEOS"
+    primary_button_url    = "https://www.gooogle.com/"
+    secondary_button      = "GET STARTED"
+    secondary_button_url  = "portfolio"
 
   [params.portfolio]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "RECENT PROJECTS"
+    subtitle  = "To improve your skills in anything practicing and taking action is the best way."
 
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
+    title               = "DO YOU HAVE A PROJECT IDEA?"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
