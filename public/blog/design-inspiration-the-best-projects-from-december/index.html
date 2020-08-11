@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   
-  <meta name="author" content="StaticMania">
+  <meta name="author" content="Surafel Yimam">
   
   <meta name="generator" content="Hugo 0.74.3" />
 
@@ -130,6 +130,10 @@
 &lt;<span style="color:#f92672">ul</span>&gt;
 </code></pre></div><p>If we save this and open our HTML file using the Live Server, which is another extension from VSCode that allows you to preview your changes instantly as you save your <code>index.html</code> file, you will find nothing more but a typical unordered list with a bunch of links.</p>
 <p>Now to the final part of our project, which is to style our HTML using CSS. So let&rsquo;s create a file that links to our previous link tag in our HTML head. We will call this file <code>styles.css</code> which matches with the reference of the link tag and is also common convention when styling an HTML page.</p>
+<p>Let&rsquo;s start by removing the dots at the start of each list item. We can do this by selecting the whole unordered list as <code>ul</code> and giving it&rsquo;s <code>list-style</code> property a value of <code>none</code>. Most navigation bars are aligned to the top and they have no space in between them and the browser window. We can set this up by giving our universal element 0 margin and 0 padding values. Next, to style our navigation, let&rsquo;s give it a slightly darker background color of #555.</p>
+<p>Now let&rsquo;s move to styling our list tags which are wrapped inside our unordered lists. You will notice that they are displaying as block values by default. This means that each element takes up a line. The display element is set as block for most elements in HTML. One of them is the list tag. Let&rsquo;s change its display value inline, which would make our list elements all appear on the same line.</p>
+<p>Once we have styled our list elements as such, it&rsquo;s time to style the anchor tags inside our list elements. Links in HTML have a default text-decoration property. Let&rsquo;s remove this property by setting it to a value of none. Another default property they have, is the blue color. Let&rsquo;s change this to white, to offer our navigation element some contrast.</p>
+<p>Our Navigation Bar is looking much better now. But it&rsquo;s noticeable that the elements are pretty close apart to each other. Let&rsquo;s put some space between them by setting the padding to 10px.</p>
 <blockquote>
 <p>Paul Rand, graphic designer</p>
 </blockquote>
@@ -146,7 +150,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="site-cta-title">LET’S WORK TOGETHER</h1>
+          <h1 class="site-cta-title">DO YOU HAVE A PROJECT IDEA?</h1>
           <ul class="site-cta-buttons">
             <li>
               <a href="contact" class="btn btn-secondary">

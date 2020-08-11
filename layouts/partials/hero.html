@@ -1,12 +1,13 @@
 {{ with .Site.Params.banner }}
   {{ if .enable }}
   {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <section class="site-hero" style="background-image: url('{{ .background_image }}');">
+  <!-- <section class="site-hero" style="background-image: url('{{ .background_image }}');"> -->
+    <section class="site-hero" style="background-color: white;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
+        <div class="col-lg-10 mx-auto px-5">
           <div class="site-hero-content text-center">
-            <h6>{{ .tagline }}</h6>
+            <h6 class="tagline-text">{{ .tagline }}</h6>
             <h1>
               {{ .heading }}
             </h1>
@@ -35,7 +36,9 @@
       </div>
     </div>
     <a href="#counter" class="site-hero-scroll scroll-to">
-      <img src="images/arrow-down.svg" alt="arrow-down">
+      <div class="scroll-arrow"></div>
+      <div class="scroll-arrow"></div>
+      <div class="scroll-arrow"></div>
     </a>
   </section>
   {{ "<!-- Site Hero End -->" | safeHTML }}

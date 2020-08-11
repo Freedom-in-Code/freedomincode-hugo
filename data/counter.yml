@@ -1,7 +1,7 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "Grow With Us!"
 counter_item: 
-  - title: "Happy Clients"
+  - title: "Average Followers"
     number: "250"
 
   - title: "Projects Completed"

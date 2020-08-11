@@ -51,12 +51,16 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Learn Web Dev through building Projects"
-    tagline               = "THE BEST WAY TO DO SOMETHING IS TO DO IT."
+    heading               = "Learning to Code Redefined"
+    tagline               = "WELCOME TO FREEDOM IN CODE"
     primary_button        = "WATCH OUR VIDEOS"
     primary_button_url    = "https://www.gooogle.com/"
     secondary_button      = "GET STARTED"
     secondary_button_url  = "portfolio"
+
+  # Counter 
+  [params.heading]
+  title = "Grow With Us"
 
   [params.portfolio]
     enable    = true
