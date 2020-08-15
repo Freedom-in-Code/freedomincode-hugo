@@ -1,5 +1,5 @@
 const {
-    gsap: { set, timeline }
+    gsap: { mascotSet, timeline }
   } = window;
   
   const shared = {
@@ -29,7 +29,7 @@ const {
   
   document.querySelector("#volume").addEventListener("input", toggleAudio);
   
-  set("#original-code-block", { x: 25, y: 15, scale: 0 });
+  mascotSet("#original-code-block", { x: 25, y: 15, scale: 0 });
   const CODEPEN = document.querySelector(".codepen");
   const TL = timeline({
     yoyo: true,
@@ -41,7 +41,7 @@ const {
         .cloneNode(true);
       block.removeAttribute("id");
       CODEPEN.appendChild(block);
-      set(block, {
+      mascotSet(block, {
         transformOrigin: "50% 50%",
         scale: 0,
         x: 30,
