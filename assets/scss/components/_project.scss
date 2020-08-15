@@ -1,6 +1,13 @@
+h2.project-header {
+  font-family: $secondary-font;
+  color: $black;
+  text-transform: uppercase;
+}
+
 .site-project{
   padding: 40px 0;
   overflow: hidden;
+  height: 100vh;
   &-item{
     border-radius: 40px;
     position: relative;
@@ -13,11 +20,12 @@
         border-radius: 40px;
       } */
        &-bg{
-        background-color: red;
+        background-color: white;
         position: relative;
         width: 100%;
         min-width: 250px;
         min-height: 250px;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
       } 
     }
     &-content{

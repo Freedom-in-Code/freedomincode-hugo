@@ -75,3 +75,11 @@
     background: darken($color: $secondary-color, $amount: 10);
   }
 }
+
+.btn-cta-nav {
+  background: #000;
+  color: $white;
+  &:hover{
+    background: darken($color: $primary-color, $amount: 10);
+  }
+}

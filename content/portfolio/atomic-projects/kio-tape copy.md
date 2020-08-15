@@ -1,6 +1,6 @@
 ---
-title: "NAVIGATION BAR"
-date: 2019-12-23T20:56:42+06:00
+title: "KIO TAPE"
+date: 2019-12-23T15:44:46+06:00
 type: portfolio
 image: "images/projects/project-thumb-four.jpg"
 category: ["PRODUCT LABEL"]
@@ -26,4 +26,3 @@ Mystery answer. After entering this mode, the screen initially displays “ask n
 Note: these strings are for the English version of the watch, we will need to use completely different strings in other countries without reprogramming the logic of the watch.
 
 The user may cycle among all modes (date/time, timer, mystery answer) by pressing the mode button.
-
