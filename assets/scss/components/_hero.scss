@@ -12,12 +12,11 @@
     margin: 0px;
     border-radius: 0px;
     height: auto;
-    padding: 200px 0;
+    padding: 100px 0;
   }
   @include mobile{
-    padding: 150px 0;
+    padding: 70px 0;
     height: auto;
-    padding: 200px 0;
   }
   &-content{
     h6 {
