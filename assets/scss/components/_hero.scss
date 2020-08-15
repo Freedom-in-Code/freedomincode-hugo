@@ -1,7 +1,7 @@
 .site-hero{
   position: relative;
   height: 100vh;
-  margin: 100px 100px 0px 100px;
+  margin: 80px 100px 0px 100px;
   border-radius: 40px;
   background-size: cover;
   background-position: center center;
@@ -26,7 +26,7 @@
       font-size: 25px;
     }
     h1{
-      margin-bottom: 75px;
+      margin-bottom: 5px;
       font-weight: 800;
       color: $black;
       @include desktop-lg{
@@ -38,6 +38,7 @@
       }
       
     }
+     /*
     &-buttons{
       margin: 0;
       padding: 0;
@@ -59,14 +60,25 @@
             width: 90%;
             margin: 0 auto;
             display: block;
-          }
+          } 
+        } */
+        /* .hero-text {
+          font-family: $secondary-font;
+          color: $black;
+          font-weight: 700;
+          @include mobile{
+            width: 90%;
+            margin: 0 auto;
+            display: block;
         }
-      }
+      } 
+      } 
     }
+    */
   }
   &-scroll{
     position: absolute;
-    left: 50%; bottom: 70px;
+    left: 50%; bottom: 100px;
     transform: translateX(-50%);
   }
 }
