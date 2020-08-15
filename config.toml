@@ -1,7 +1,6 @@
-baseURL       = "http://example.org/"
+baseURL       = ""
 languageCode  = "en-us"
 title         = "Freedom in Code"
-theme         = ""
 summarylength = 25
 
 # Site Menus
