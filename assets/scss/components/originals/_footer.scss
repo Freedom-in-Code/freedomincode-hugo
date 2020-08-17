@@ -1,12 +1,12 @@
 .site-footer{
-  background: $white;
+  background: $secondary-color;
   padding: 100px 0;
-  /*&-logo{
+  &-logo{
     margin-bottom: 50px;
     @include mobile{
       text-align: center;
     }
-  }*/
+  }
   &-widget{
     @include desktop{
       margin-bottom: 40px;
@@ -15,14 +15,14 @@
       text-align: center;
     }
     &-title{
-      color: $black;
+      color: $white;
       margin-bottom: 30px;
       @include desktop{
         margin-bottom: 20px;
       }
     }
     &-description{
-      color: $black;
+      color: $white;
       line-height: 30px;
       a{
         color: $white;
@@ -31,13 +31,10 @@
     &-links{
       margin: 0;
       padding: 0;
-      display: flex;
-      justify-content: center;
       li{
-        
         list-style: none;
         a{
-          color: $black;
+          color: $white;
           transition: all 0.3s $site-ease;
           display: block;
         }

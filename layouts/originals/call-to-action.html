@@ -1,6 +1,6 @@
 {{ with .Site.Params.call_to_action }}
   {{ if .enable }}
-  <section class="site-cta">
+  <section class="site-cta" style='background-image: url("{{ .background_image | absURL }}");'>
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -15,8 +15,6 @@
                 </span>
               </a>
             </li>
-
-            <!--
             <li>
               <a href="{{ .secondary_button_url | absURL }}" class="btn btn-primary">
                 <span class="btn-area">
@@ -26,7 +24,6 @@
                 </span>
               </a>
             </li>
-            -->
           </ul>
         </div>
       </div>

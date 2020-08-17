@@ -1,33 +1,74 @@
-{{ with .Site.Params.portfolio }}
+{{ with .Site.Params.category }}
   {{ if .enable }}
-  <section class="site-project" id="project">
+  <section class="site-category" id="category">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h2>{{ .title }}</h2>
-            <p>{{ .subtitle }}</p>
+            <h2 class="category-header">{{ .header }}</h2>
           </div>
         </div>
-        {{ range first 3 (where $.Site.RegularPages "Type" "portfolio") }}
-        <div class="col-lg-4 col-md-10 mx-auto">
-          <div class="site-project-item">
-            <div class="site-project-item-thumb">
-              <div class="site-project-item-thumb-bg"></div>
+        <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="site-category-item">
+            <div class="site-category-item-thumb">
+              <div class="site-category-item-thumb-bg"></div>
               <!-- <img src="{{ .Params.Image | absURL }}" alt="project-thumb"> -->
-      
               </div>
-            <div class="site-project-item-content">
-              <h3>{{ .Title }}</h3>
-              <span>{{ delimit .Params.category ", " }}</span>
-              <a href="{{ .Permalink }}" class="read-more">view project</a>
+            <div class="site-category-item-content">
+              <h3>{{ .title1 }}</h3>
+              <span>{{ .subtitle1}}</span>
+          <!-- <a href="{{ .Permalink }}" class="read-more">view project</a>
+              -->
             </div>
           </div>
         </div>
-        {{ end }}
+        <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="site-category-item">
+            <div class="site-category-item-thumb">
+              <div class="site-category-item-thumb-bg"></div>
+              <!-- <img src="{{ .Params.Image | absURL }}" alt="project-thumb"> -->
+              </div>
+            <div class="site-category-item-content">
+              <h3>{{ .title2 }}</h3>
+              <span>{{ .subtitle2}}</span>
+          <!-- <a href="{{ .Permalink }}" class="read-more">view project</a>
+              -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="site-category-item">
+            <div class="site-category-item-thumb">
+              <div class="site-category-item-thumb-bg"></div>
+              <!-- <img src="{{ .Params.Image | absURL }}" alt="project-thumb"> -->
+              </div>
+            <div class="site-category-item-content">
+              <h3>{{ .title3 }}</h3>
+              <span>{{ .subtitle3}}</span>
+          <!-- <a href="{{ .Permalink }}" class="read-more">view project</a>
+              -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="site-category-item">
+            <div class="site-category-item-thumb">
+              <div class="site-category-item-thumb-bg"></div>
+              <!-- <img src="{{ .Params.Image | absURL }}" alt="project-thumb"> -->
+              </div>
+            <div class="site-category-item-content">
+              <h3>{{ .title4 }}</h3>
+              <span>{{ .subtitle4}}</span>
+          <!-- <a href="{{ .Permalink }}" class="read-more">view project</a>
+              -->
+            </div>
+          </div>
+        </div>
+        <!--
         <div class="col-12 text-center text-lg-right">
           <a href="portfolio" class="site-project-cta">MORE WORKS</a>
         </div>
+      -->
       </div>
     </div>
   </section>

@@ -1,7 +1,7 @@
 .site-hero{
   position: relative;
-  height: 100vh;
-  margin: 80px 100px 0px 100px;
+  height: auto;
+  margin: 200px auto;
   border-radius: 40px;
   background-size: cover;
   background-position: center center;
@@ -19,11 +19,12 @@
     height: auto;
   }
   &-content{
+    
     h6 {
       font-family: $secondary-font;
       color: $secondary-color;
       font-weight: 700;
-      font-size: 25px;
+      font-size: 30px;
     }
     h1{
       margin-bottom: 5px;
@@ -38,10 +39,20 @@
       }
       
     }
-     /*
+    
     &-buttons{
+      list-style: none;
       margin: 0;
       padding: 0;
+      .description_text {
+        font-family: $text-font;
+        color: $black;
+        font-weight: 100;
+        padding-right: 20px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+      }
       li{
         display: inline-block;
         @include mobile{
@@ -55,14 +66,15 @@
           }
         }
         .btn{
+          text-transform: uppercase;
           font-weight: 600;
           @include mobile{
             width: 90%;
             margin: 0 auto;
             display: block;
           } 
-        } */
-        /* .hero-text {
+        } 
+        .hero-text {
           font-family: $secondary-font;
           color: $black;
           font-weight: 700;
@@ -74,7 +86,7 @@
       } 
       } 
     }
-    */
+    
   }
   &-scroll{
     position: absolute;

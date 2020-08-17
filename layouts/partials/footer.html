@@ -1,9 +1,12 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 col-lg-1 mx-auto">
+        <!--
         <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ "images/logo-footer.png" | absURL }}" alt="logo-footer"></a></div>
       </div>
+      -->
+      <!--
       {{ with .Site.Params.footer.contactInfo }}
       <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">
@@ -18,22 +21,14 @@
         </div>
       </div>
       {{ end }}
-      {{ with .Site.Params.footer.sitemap }}
-      <div class="col-lg-2 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <ul class="site-footer-widget-links">
-            {{ range .link }}
-            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ end }}
+      -->
+      
       {{ with .Site.Params.footer.social }}
       <div class="col-lg-2 col-md-6">
         <div class="site-footer-widget">
+          <!--
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          -->
           <ul class="site-footer-widget-links">
             {{ range .link }}
               <li><a href="{{ .url }}">{{ .name }}</a></li>
@@ -42,6 +37,22 @@
         </div>
       </div>
       {{ end }}
+      {{ with .Site.Params.footer.sitemap }}
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <!--
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          -->
+          <ul class="site-footer-widget-links">
+            {{ range .link }}
+            <li><a href="{{ .url | absURL }}">{{ .name }}
+            </a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      <!--
       {{ with .Site.Params.footer.service }}
       <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">
@@ -52,6 +63,7 @@
         </div>
       </div>
       {{ end }}
+      
       <div class="col-lg-2 col-12">
         <a href="#top" class="site-footer-widget-top">
           <img src="{{ "images/to-top.svg" | absURL }}" alt="back-to-top">
@@ -62,8 +74,10 @@
           </p>
         </a>
       </div>
+        -->
     </div>
   </div>
+
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>

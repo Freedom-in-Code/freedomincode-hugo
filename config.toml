@@ -51,17 +51,30 @@ summarylength = 25
     enable                = true
     background_image      = ""
     heading               = "Learning Code"
-    heading2             =  "Redefined."
+    heading2              =  "Redefined."
     tagline               = "Welcome to Freedom in Code"
+    description_text      = "Never get's old right or does it, I wouldn't know and more bla bla"
     primary_button        = "See Our Works"
     primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Us"
-    secondary_button_url  = "contact"
+    secondary_button      = "Get Started"
+    secondary_button_url  = "portfolio"
 
   [params.portfolio]
     enable    = true
     title     = "Popular Projects"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.category]
+    enable    = true
+    header     = "Pick a Category"
+    title1     = "Beginner"
+    subtitle1  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title2     = "Intermediate"
+    subtitle2  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title3     = "Advanced"
+    subtitle3  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title4     = "Expert"
+    subtitle4  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
   [params.call_to_action]
     enable              = true
@@ -83,14 +96,11 @@ summarylength = 25
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "About"
           url  = "about"
         [[params.footer.sitemap.link]]
           name = "Projects"
           url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
@@ -98,7 +108,7 @@ summarylength = 25
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
-          name = "Medium"
+          name = "fa fa-home"
           url  = "#"
         [[params.footer.social.link]]
           name = "Behance"
