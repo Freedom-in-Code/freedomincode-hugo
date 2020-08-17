@@ -50,8 +50,8 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = ""
-    heading               = "Learning Code"
-    heading2              =  "Redefined."
+    heading               = "Teach Yourself"
+    heading2              =  "to Code."
     tagline               = "Welcome to Freedom in Code"
     description_text      = "Never get's old right or does it, I wouldn't know and more bla bla"
     primary_button        = "See Our Works"

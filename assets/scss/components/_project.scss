@@ -7,6 +7,7 @@ h2.project-header {
 }
 
 .site-project{
+  margin-top: -170px;
   padding: 50px 0;
   //overflow: hidden;
   height: auto;
@@ -35,12 +36,9 @@ h2.project-header {
       } 
     }
     &-content{
-      
-      position: absolute;
       background: $transparent-gray;
       width: 100%;
       padding: 45px 50px;
-      bottom: 0;
       transition: all .3s $site-ease;
       @include tablet{
         padding: 30px;
